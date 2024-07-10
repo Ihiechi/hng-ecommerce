@@ -1,68 +1,10 @@
-/* 
- #products h1 {
-    font-family: Montserrat, sans-serif;
-    font-size: 40px;
-    font-weight: 500;
-    line-height: 48.76px;
-    color: #000000;
-    text-align: left;
-}
-.prod-div{
-    display: flex;
-    justify-content: space-evenly;
-}
-.star-icons{
-    display: flex;
-    gap: 10px;
-}
-.cart-div{
-    display: flex;
-    gap:100px ;
-}
-.cart-price{
-    display: flex;
-    gap: 10px;
-}
-.cart-icon{
-border-radius: 50%;
-width: 12px;
-height:12px;
-padding: 10px;
-background: #91C900;
-}
-.review{
-    font-family: Montserrat;
-    font-size: 10px;
-    line-height: 25px;
-    text-align: left;
-}
-.big-text{
-    font-family: Montserrat;
-    font-size: 16px;
-    text-align: left;
-}
-.bol-text{
-    font-family: Montserrat;
-font-size: 14px;
-font-weight: 600;
-text-align: left;
-}
-.small-text{
-font-family: Montserrat;
-font-size: 15px;
-text-align: left;
-color: #979797;
-
-} */
-
 #products h1 {
     font-family: Montserrat, sans-serif;
     font-size: 40px;
-    font-weight: 500;
-    line-height: 48.76px;
+    /* font-weight: 500;
+    line-height: 48.76px; */
     color: #000000;
-    text-align: left;
-}
+  }
 
 .prod-div {
     display: flex;
