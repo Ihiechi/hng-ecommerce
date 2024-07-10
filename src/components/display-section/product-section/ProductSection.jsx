@@ -15,142 +15,183 @@ export default function ProductSection() {
   return (
     <div id='products'>
       <h1>Best Sellers</h1>
-      <div className ='products-div'>
-      <div  className='products-one'>
+      <div>
+      <div  className='prod-div'>
+      <div className='div-pic'>
        <img src={NikerunShoe} alt="" />
+        <div className='star-icons'>
         <div>
           <img src={Star} alt="" />
           <img src={Star} alt="" />
           <img src={Star} alt="" />
           <img src={Star} alt="" />
           <img src={Star} alt="" />
-          <span className='reviews'>(5.8k Reviews)</span>
-        </div>
-          <p className='.bigtext'>Nike Running Shoe</p>
-          <div className='product-details'>
-            <p className='boldtext'>N959,765<span className='smalltext'> 4,430</span></p>
-            <a href="./cartpage"><img src={CartIcon} className='icon' alt="" /></a>
-          </div>
-      </div>
-      <div className='products-one'>
-      <img src={NikeswimShoe} alt="" />
-      <div>
-         <img src={Star} alt="" />
-          <img src={Star} alt="" />
-          <img src={Star} alt="" />
-          <img src={Star} alt="" />
-          <img src={Star} alt="" />
-          <span className='reviews'> (5.8k Reviews)</span>
-          <p className='bigtext'>Nike Running Shoe</p>
-        <div  className='product-details'>
-        <p className='boldtext'>N959,765 <span className='smalltext'>4,430 sold</span> </p>
-        <a href="./cartpage"><img src={CartIcon} className='icon' alt="" /></a>
-        </div>
-      </div>
-      </div>
-      <div className='products-one'>
-      <img src={NikejogShoe} alt="" />
-      <div >
-          <img src={Star} alt="" />
-          <img src={Star} alt="" />
-          <img src={Star} alt="" />
-          <img src={Star} alt="" />
-          <img src={Star} alt="" />
-          <span className='reviews'>(5.8k Reviews)</span>
-          <p className='bigtext'>Nike Running Shoe</p>
-         <div className='product-details'>
-          <p className='boldtext'>N959,765 <span className='smalltext'>4,430 sold</span></p>
-          <a href="./cartpage"><img src={CartIcon} className='icon' alt="" /></a>
          </div>
+         <span className='review'>(5.8k Reviews)</span>
+        </div>
+          <p className='big-text'>Nike Running Shoe</p>
+        <div className='cart-div' >
+         <div className='cart-price'>
+         <p className='bold-text'>N959,765</p>
+         <p className='small-text'>4430</p>
+         </div>
+         <a href="./cartpage" className='cart-icon'><img src={CartIcon} alt="" /></a>
+        </div>
       </div>
-      </div>
-      <div className='products-one'>
-      <img src={NiketrackShoe} alt="" />
-      <div>
-      <div>
-          <img src={Star} alt="" />
-          <img src={Star} alt="" />
-          <img src={Star} alt="" />
-          <img src={Star} alt="" />
-          <img src={Star} alt="" />
-          <span className='reviews'>(5.8k Reviews)</span>
-          <p className='bigtext'>Nike Running Shoe</p>
-          <div className='product-details'>
-          <p className='boldtext'>N959,765 <span className='smalltext'>4,430 sold</span> </p>
-          <a href="./cartpage"><img src={CartIcon} className='icon' alt="" /></a>
-          </div>
-      </div>
-      </div>
-      </div>
-      </div>
-      <div className ='products-div products-div2' >
-      <div  className='products-one'>
-       <img src={NikelukeShoe} alt="" />
+      <div className='div-pic'>
+       <img src={NikeswimShoe} alt="" />
+        <div className='star-icons'>
         <div>
           <img src={Star} alt="" />
           <img src={Star} alt="" />
           <img src={Star} alt="" />
           <img src={Star} alt="" />
           <img src={Star} alt="" />
-          <span className='reviews'>(5.8k Reviews)</span>
-        </div>
-          <p className='.bigtext'>Nike Running Shoe</p>
-          <div className='product-details'>
-            <p className='boldtext'>N959,765<span className='smalltext'> 4,430</span></p>
-            <a href="./cartpage"><img src={CartIcon} className='icon' alt="" /></a>
-          </div>
-      </div>
-      <div className='products-one'>
-      <img src={NikesportShoe} alt="" />
-      <div>
-         <img src={Star} alt="" />
-          <img src={Star} alt="" />
-          <img src={Star} alt="" />
-          <img src={Star} alt="" />
-          <img src={Star} alt="" />
-          <span className='reviews'> (5.8k Reviews)</span>
-          <p className='bigtext'>Nike Running Shoe</p>
-        <div  className='product-details'>
-        <p className='boldtext'>N959,765 <span className='smalltext'>4,430 sold</span> </p>
-        <a href="./cartpage"><img src={CartIcon} className='icon' alt="" /></a>
-        </div>
-      </div>
-      </div>
-      <div className='products-one'>
-      <img src={NikeeveningShoe} alt="" />
-      <div >
-          <img src={Star} alt="" />
-          <img src={Star} alt="" />
-          <img src={Star} alt="" />
-          <img src={Star} alt="" />
-          <img src={Star} alt="" />
-          <span className='reviews'>(5.8k Reviews)</span>
-          <p className='bigtext'>Nike Running Shoe</p>
-         <div className='product-details'>
-          <p className='boldtext'>N959,765 <span className='smalltext'>4,430 sold</span></p>
-          <a href="./cartpage"><img src={CartIcon} className='icon' alt="" /></a>
          </div>
+         <span className='review'>(5.8k Reviews)</span>
+        </div>
+          <p className='big-text'>Nike Running Shoe</p>
+        <div className='cart-div' >
+         <div className='cart-price'>
+         <p className='bold-text'>N959,765</p>
+         <p className='small-text'>4430</p>
+         </div>
+         <a href="./cartpage" className='cart-icon'><img src={CartIcon} alt="" /></a>
+        </div>
       </div>
-      </div>
-      <div className='products-one'>
-      <img src={NikeraceShoe} alt="" />
-      <div>
-      <div>
+      <div className='div-pic'>
+       <img src={NikejogShoe} alt="" />
+        <div className='star-icons'>
+        <div>
           <img src={Star} alt="" />
           <img src={Star} alt="" />
           <img src={Star} alt="" />
           <img src={Star} alt="" />
           <img src={Star} alt="" />
-          <span className='reviews'>(5.8k Reviews)</span>
-          <p className='bigtext'>Nike Running Shoe</p>
-          <div className='product-details'>
-          <p className='boldtext'>N959,765 <span className='smalltext'>4,430 sold</span> </p>
-          <a href="./cartpage"><img src={CartIcon} className='icon' alt="" /></a>
-          </div>
+         </div>
+         <span className='review'>(5.8k Reviews)</span>
+        </div>
+          <p className='big-text'>Nike Running Shoe</p>
+        <div className='cart-div' >
+         <div className='cart-price'>
+         <p className='bold-text'>N959,765</p>
+         <p className='small-text'>4430</p>
+         </div>
+         <a href="./cartpage" className='cart-icon'><img src={CartIcon} alt="" /></a>
+        </div>
+      </div>
+      <div className='div-pic'>
+       <img src={NiketrackShoe} alt="" />
+        <div className='star-icons'>
+        <div>
+          <img src={Star} alt="" />
+          <img src={Star} alt="" />
+          <img src={Star} alt="" />
+          <img src={Star} alt="" />
+          <img src={Star} alt="" />
+         </div>
+         <span className='review'>(5.8k Reviews)</span>
+        </div>
+          <p className='big-text'>Nike Running Shoe</p>
+        <div className='cart-div' >
+         <div className='cart-price'>
+         <p className='bold-text'>N959,765</p>
+         <p className='small-text'>4430</p>
+         </div>
+         <a href="./cartpage" className='cart-icon'><img src={CartIcon} alt="" /></a>
+        </div>
+      </div>
+      </div>
+
+      <div  className='prod-div prod-div2'>
+      <div className='div-pic'>
+       <img src={NikerunShoe} alt="" />
+        <div className='star-icons'>
+        <div>
+          <img src={Star} alt="" />
+          <img src={Star} alt="" />
+          <img src={Star} alt="" />
+          <img src={Star} alt="" />
+          <img src={Star} alt="" />
+         </div>
+         <span className='review'>(5.8k Reviews)</span>
+        </div>
+          <p className='big-text'>Nike Running Shoe</p>
+        <div className='cart-div' >
+         <div className='cart-price'>
+         <p className='bold-text'>N959,765</p>
+         <p className='small-text'>4430</p>
+         </div>
+         <a href="./cartpage" className='cart-icon'><img src={CartIcon} alt="" /></a>
+        </div>
+      </div>
+      <div className='div-pic'>
+       <img src={NikeswimShoe} alt="" />
+        <div className='star-icons'>
+        <div>
+          <img src={Star} alt="" />
+          <img src={Star} alt="" />
+          <img src={Star} alt="" />
+          <img src={Star} alt="" />
+          <img src={Star} alt="" />
+         </div>
+         <span className='review'>(5.8k Reviews)</span>
+        </div>
+          <p className='big-text'>Nike Running Shoe</p>
+        <div className='cart-div' >
+         <div className='cart-price'>
+         <p className='bold-text'>N959,765</p>
+         <p className='small-text'>4430</p>
+         </div>
+         <a href="./cartpage" className='cart-icon'><img src={CartIcon} alt="" /></a>
+        </div>
+      </div>
+      <div className='div-pic'>
+       <img src={NikejogShoe} alt="" />
+        <div className='star-icons'>
+        <div>
+          <img src={Star} alt="" />
+          <img src={Star} alt="" />
+          <img src={Star} alt="" />
+          <img src={Star} alt="" />
+          <img src={Star} alt="" />
+         </div>
+         <span className='review'>(5.8k Reviews)</span>
+        </div>
+          <p className='big-text'>Nike Running Shoe</p>
+        <div className='cart-div' >
+         <div className='cart-price'>
+         <p className='bold-text'>N959,765</p>
+         <p className='small-text'>4430</p>
+         </div>
+         <a href="./cartpage" className='cart-icon'><img src={CartIcon} alt="" /></a>
+        </div>
+      </div>
+      <div className='div-pic'>
+       <img src={NiketrackShoe} alt="" />
+        <div className='star-icons'>
+        <div>
+          <img src={Star} alt="" />
+          <img src={Star} alt="" />
+          <img src={Star} alt="" />
+          <img src={Star} alt="" />
+          <img src={Star} alt="" />
+         </div>
+         <span className='review'>(5.8k Reviews)</span>
+        </div>
+          <p className='big-text'>Nike Running Shoe</p>
+        <div className='cart-div' >
+         <div className='cart-price'>
+         <p className='bold-text'>N959,765</p>
+         <p className='small-text'>4430</p>
+         </div>
+         <a href="./cartpage" className='cart-icon'><img src={CartIcon} alt="" /></a>
+        </div>
       </div>
       </div>
       </div>
-      </div>
+
+      
     </div>
   )
 }

@@ -3,9 +3,8 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from './components/navbar/Navbar';
 import Footer from './components/footer/Footer';
 import LandingPage from './pages/LandingPage';
-import CartPage from './pages/CartPage';
-import CheckoutPage from './pages/CheckoutPage';
-
+import CartPage from './components/cart-section/CartSection';
+import CheckoutPage from './components/checkout-section/CheckoutSection';
 
 
 function App() {
@@ -13,7 +12,7 @@ function App() {
    <Router>
     <Navbar/>
     <Routes>
-      <Route path='/landingpage' element={<LandingPage/>}/>
+      <Route path='/' element={<LandingPage/>}/>
       <Route path='/cartpage' element={<CartPage/>}/>
       <Route path='/checkoutpage' element={<CheckoutPage/>}/>
     </Routes>
